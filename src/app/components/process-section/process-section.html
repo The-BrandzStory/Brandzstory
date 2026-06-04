@@ -1,0 +1,13 @@
+<section class="process-section">
+  <p>Our Process</p>
+  <h3>How We Tell Your Brand Story</h3>
+
+  <div class="process-cards">
+    <div class="process-card" *ngFor="let step of steps" [ngClass]="step.tiltClass">
+      <div class="step-no">{{ step.stepNo }}</div>
+      <img [src]="step.image" [alt]="step.title" class="imgs"/>
+      <h4>{{ step.title }}</h4>
+      <p>{{ step.description }}</p>
+    </div>
+  </div>
+</section>

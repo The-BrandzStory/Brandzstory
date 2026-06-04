@@ -1,0 +1,42 @@
+<section class="feedback-section">
+
+  <div class="feedback-container">
+
+    <!-- LEFT SIDE -->
+    <div class="feedback-box left">
+      <p class="feedback-text">
+        {{ feedback[0]?.text }}
+      </p>
+
+      <div class="feedback-footer">
+        <img [src]="feedback[0]?.logo" alt="logo" />
+        <div>
+          <h4>{{ feedback[0]?.company }}</h4>
+          <span>{{ feedback[0]?.type }}</span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- DIVIDER -->
+    <div class="divider"></div>
+
+
+    <!-- RIGHT SIDE -->
+    <div class="feedback-box right">
+      <p class="feedback-text">
+        {{ feedback[1]?.text }}
+      </p>
+
+      <div class="feedback-footer">
+        <img [src]="feedback[1]?.logo" alt="logo" />
+        <div>
+          <h4>{{ feedback[1]?.company }}</h4>
+          <span>{{ feedback[1]?.type }}</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>

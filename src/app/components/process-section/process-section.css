@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+.process-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+}
+
+h3 {
+  margin-top: 0%;
+}
+
+.process-section p {
+  font-size: 20px;
+  color: #9ca3af;
+  margin-bottom: 0px;
+}
+
+.process-section h3 {
+  font-size: 36px;
+  color: #111827;
+  font-weight: 500;
+}
+
+.process-cards {
+  width: 100%;
+  max-width: 1100px;
+  min-height: 500px;
+  margin: 60px auto 0;
+
+  position: relative;
+}
+
+.process-card {
+  width: 300px;
+  min-height: 400px;
+  background: #ffffff;
+  border-radius: 22px;
+  border: 4px solid #d9d9d9;
+  padding: 10px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.process-card img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.process-card h4 {
+  font-size: 32px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: #111827;
+  font-weight: 500;
+}
+
+.process-card p {
+  font-size: 16px;
+  color: #8a8a8a;
+  line-height: 1.4;
+}
+
+.step-no {
+  display: none;
+}
+
+.tilt-left {
+  left: 80px;
+  bottom: 0;
+  transform: rotate(-10deg);
+  z-index: 1;
+}
+
+.center-card {
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px) rotate(-3deg);
+  z-index: 3;
+}
+
+.tilt-right {
+  right: 80px;
+  bottom: 0;
+  transform: rotate(10deg);
+  z-index: 2;
+}
+
+.tilt-left:hover {
+  transform: rotate(-10deg) scale(1.05);
+}
+
+.center-card:hover {
+  transform: translateX(-50%) translateY(-20px) rotate(-3deg) scale(1.05);
+}
+
+.tilt-right:hover {
+  transform: rotate(10deg) scale(1.05);
+}
+
+@media (max-width: 900px) {
+  .process-cards {
+    height: auto;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .process-card {
+    position: static;
+    transform: none !important;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .process-card *,
+  .process-card img,
+  .tilt-left,
+  .center-card,
+  .tilt-right {
+    transform: none !important;
+  }
+
+  .process-section h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .tilt-left:hover,
+  .center-card:hover,
+  .tilt-right:hover {
+    transform: none !important;
+  }
+
+  .process-card img {
+    transform: rotate(0deg) !important;
+  }
+
+  p {
+    margin-bottom: 0%;
+  }
+
+  h3 {
+    margin-top: 0%;
+  }
+}
