@@ -1,4 +1,5 @@
-html,body{
+html,
+body {
   background: white;
 }
 .showcase-section {
@@ -9,7 +10,6 @@ html,body{
   justify-content: center;
   align-items: center;
   background: white;
-
 }
 
 .showcase-frame {
@@ -33,7 +33,6 @@ html,body{
   overflow-x: hidden;
   padding-right: 6px;
   scroll-behavior: auto;
-
   scrollbar-width: none;
 }
 
@@ -58,7 +57,7 @@ html,body{
   transform: translate(-50%, -50%);
   border-radius: 50%;
   background: #fff;
-  border: 6px solid #ff8f1f;
+  /* border: 6px solid #ff8f1f; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,7 +86,6 @@ html,body{
     grid-template-columns: 1fr;
     height: 420px;
   }
-
   .poster-grid img {
     width: 100%;
     aspect-ratio: 4/5;

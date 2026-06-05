@@ -90,10 +90,10 @@
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
-.about-row.reverse .quote-card {
+/* .about-row.reverse .quote-card {
   left: auto;
   right: auto;
-}
+} */
 
 @media (max-width: 900px) {
   .about-row {
@@ -107,8 +107,10 @@
 
   }
   .section-title {
-    font-size: 24px;
-    font-weight: 500;
+   font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    font-weight: 500; 
   }
 
   .image-block img {

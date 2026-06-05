@@ -28,6 +28,7 @@
   margin: 0 auto 8px;
 }
 
+
 .title-caption {
   font-size: 13px;
   color: rgb(181, 175, 175);
@@ -47,7 +48,7 @@
 }
 
 .blue {
-  background: linear-gradient(#00449E, #001838);
+  background: linear-gradient(#00449e, #001838);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -57,10 +58,12 @@
 .italic {
   font-style: italic;
   font-size: 70px;
+    font-weight: 500;
+
 }
 
 .blue1 {
-  background: linear-gradient(#00449E, #001838);
+  background: linear-gradient(#00449e, #001838);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -70,6 +73,8 @@
 .italic1 {
   font-style: italic;
   font-size: 96px;
+
+  font-weight: 500;
 }
 
 .hero-subtext {
@@ -80,7 +85,7 @@
   margin: 22px auto 24px;
   color: #8a8a8a;
   font-size: 16px;
-  line-height: 2.0;
+  line-height: 2;
 }
 
 .hero-btn {
@@ -101,7 +106,6 @@
   justify-content: center;
   gap: 8px;
 }
-
 
 .floating {
   position: absolute;
@@ -126,12 +130,10 @@
 }
 
 @media (max-width: 600px) {
-
   .hero-section {
     padding-top: 20px;
     padding-left: 16px;
     padding-right: 16px;
-
   }
 
   .title-block {
@@ -146,7 +148,7 @@
 
   .title-caption {
     font-size: 11px;
-    line-height: 1.0;
+    line-height: 1;
   }
 
   .hero-section h1 {
@@ -194,5 +196,4 @@
   .floating {
     display: none;
   }
-
 }

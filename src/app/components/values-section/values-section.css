@@ -1,14 +1,13 @@
-.values-section {
-  text-align: right;         /* ✅ move all text to right */
+/* .values-section {
+  text-align: right;        
   padding: 60px 40px;
   position: relative;
 }
 
-/* ✅ Top-right small label */
 .values-subtitle {
   position: absolute;
   top: 15px;
-  right: 40px;               /* ✅ exact right end */
+  right: 40px;            
   font-size: 14px;
   color: #9ca3af;
 }
@@ -18,7 +17,6 @@
   font-size:medium;
 }
 
-/* ✅ Heading */
 .values-section h6 {
   font-size: 36px;
   margin-bottom: 20px;
@@ -27,32 +25,28 @@
   font-weight: 600;
 }
 
-/* ✅ Remove default ul styles */
 .values-section ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* ✅ Each line aligned right */
 .values-section li {
   font-size: 32px;
   line-height: 1.8;
   color: #222;
   font-style: italic;
-  text-align: right;         /* ✅ important */
+  text-align: right;         
 }
 
-/* ✅ spacing between lines */
 .values-section li:not(:last-child) {
   margin-bottom: 6px;
 }
 
-/* ✅ Responsive */
 @media (max-width: 600px) {
   .values-section h6{
     text-align: right;  
-    font-size:18px;    /* fallback for mobile */
+    font-size:18px;    
   }
 
   .values-section li {
@@ -62,6 +56,63 @@
 
   .values-subtitle {
     text-align:right;
-    /* right: 20px; */
+  }
+} */
+.values-section {
+  text-align: right;
+  padding: 60px 40px;
+  position: relative;
+  background: white;
+}
+
+.values-subtitle {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  display: block;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.values-section h6 {
+  font-size: 36px;
+  margin: 0 0 20px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.values-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.values-section li {
+  font-size: 32px;
+  line-height: 1.8;
+  color: #222;
+  font-style: italic;
+}
+
+.values-section li:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 600px) {
+  .values-section {
+    padding: 50px 20px;
+  }
+
+  .values-section h6 {
+    font-size: 18px;
+  }
+
+  .values-section li {
+    font-size: 18px;
+  }
+
+  .values-subtitle {
+    right: 20px;
+    font-size: 12px;
   }
 }

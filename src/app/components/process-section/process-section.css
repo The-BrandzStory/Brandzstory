@@ -19,9 +19,10 @@ h3 {
 }
 
 .process-section h3 {
-  font-size: 36px;
+   font-size: 36px;
+  margin: 0;
   color: #111827;
-  font-weight: 500;
+  line-height: 1.1;
 }
 
 .process-cards {
@@ -43,7 +44,9 @@ h3 {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
   position: absolute;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .process-card img {
@@ -104,7 +107,7 @@ h3 {
   transform: rotate(10deg) scale(1.05);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .process-cards {
     height: auto;
     position: static;
@@ -121,7 +124,9 @@ h3 {
     max-width: 320px;
     height: auto;
   }
-
+  .process-card:active {
+    transform: scale(1.05);
+  }
   .process-card *,
   .process-card img,
   .tilt-left,
@@ -132,6 +137,8 @@ h3 {
 
   .process-section h3 {
     font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 10px;
     font-weight: 500;
   }
 
