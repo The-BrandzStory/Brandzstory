@@ -3,7 +3,8 @@
 }
 
 .about-section {
-  max-width: 1150px;
+  /* max-width: 1150px; */
+  width: 100%;
   margin: 0 auto;
   padding: 60px 20px;
   background: white;
@@ -33,10 +34,9 @@
   margin-bottom: 90px;
 }
 
-
-
 .text-block {
-  max-width: 420px;
+  max-width: 500px;
+  width: 100%;
 }
 
 .label {
@@ -67,6 +67,8 @@
 }
 
 .image-block {
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 
@@ -98,14 +100,14 @@
 @media (max-width: 900px) {
   .about-row {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
   }
 
   .text-block {
     max-width: 100%;
     text-align: left; 
-
   }
+  
   .section-title {
    font-size: 24px;
     line-height: 1.3;

@@ -3,7 +3,8 @@
 }
 
 .contact-section {
-  max-width: 1152px;
+  /* max-width: 1152px; */
+  width: 100%;
   margin: 0 auto;
   padding: 60px 20px;
   text-align: center;
