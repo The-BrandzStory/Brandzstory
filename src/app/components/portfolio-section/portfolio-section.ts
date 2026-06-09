@@ -17,14 +17,17 @@ export class PortfolioSection {
 
   videos = [
     {
+      src: 'assets/videos/god-mode.mp4',
+      poster: '',
+      quote: 'God mode beginns. 🔥.'
+    },
+    {
+      // src: 'assets/videos/video2.mp4',
+      // poster: 'assets/logos/poster2.png',
+      // quote: 'Where every flavor feels like home  welcome to Hillside Restaurant. 🍽️'
       src: 'assets/videos/video1.mp4',
       poster: 'assets/logos/poster1.png',
       quote: 'Not just a shop opening… it’s a LEO level entry. 🔥.'
-    },
-    {
-      src: 'assets/videos/video2.mp4',
-      poster: 'assets/logos/poster2.png',
-      quote: 'Where every flavor feels like home  welcome to Hillside Restaurant. 🍽️'
     },
     {
       src: 'assets/videos/video3.mp4',
@@ -40,6 +43,11 @@ export class PortfolioSection {
       src: 'assets/videos/video5.mp4',
       poster: 'assets/logos/poster5.png',
       quote: 'Capturing smiles, surprises & memories that last forever. 🎉'
+    },
+    {
+      src: 'assets/videos/kiruba-car.mp4',
+      poster: '',
+      quote: 'Every key opens a new story'
     }
   ];
 
