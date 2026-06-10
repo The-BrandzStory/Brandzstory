@@ -1,0 +1,86 @@
+<section class="video-section">
+  <img src="assets/images/Stories.png" class="bg-stories" alt="stories bg" />
+  <img src="assets/images/wevebuild.png" class="bg-built" alt="built bg" />
+
+  <div class="video-header">
+    <p class="section-subtitle">Our Work</p>
+    <h2 class="section-title">Stories We’ve Built</h2>
+  </div>
+
+  <div class="video-wrapper">
+
+    <!-- Top Full Width Video -->
+    <div class="video-card video-card-top" (click)="playVideo(0)">
+      <video #videoPlayer [src]="videos[0].src" [poster]="videos[0].poster" controls preload="metadata">
+      </video>
+
+      <div class="quote-box quote-top">
+        "{{ videos[0].quote }}"
+      </div>
+    </div>
+
+    <!-- Two Column Grid -->
+    <div class="video-grid">
+
+      <!-- Left Column -->
+      <div class="video-column">
+
+        <div class="video-card video-card-small" (click)="playVideo(1)">
+          <video #videoPlayer [src]="videos[1].src" [poster]="videos[1].poster" controls preload="metadata">
+          </video>
+
+          <div class="quote-box quote-left">
+            "{{ videos[1].quote }}"
+          </div>
+        </div>
+
+        <div class="video-card video-card-tall" (click)="playVideo(2)">
+          <video #videoPlayer [src]="videos[2].src" [poster]="videos[2].poster" controls preload="metadata">
+          </video>
+
+          <div class="quote-box quote-left">
+            "{{ videos[2].quote }}"
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Column -->
+      <div class="video-column">
+
+        <div class="video-card video-card-tall" (click)="playVideo(3)">
+          <video #videoPlayer [src]="videos[3].src" [poster]="videos[3].poster" controls preload="metadata">
+          </video>
+
+          <div class="quote-box quote-right">
+            "{{ videos[3].quote }}"
+          </div>
+        </div>
+
+        <div class="video-card video-card-small" (click)="playVideo(4)">
+          <video #videoPlayer [src]="videos[4].src" [poster]="videos[4].poster" controls preload="metadata">
+          </video>
+
+          <div class="quote-box quote-right">
+            "{{ videos[4].quote }}"
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Full Width Video -->
+    <div class="bottom-video">
+      <div class="video-card video-card-bottom" (click)="playVideo(5)">
+        <video #videoPlayer [src]="videos[5].src" [poster]="videos[5].poster" controls preload="metadata">
+        </video>
+
+        <div class="quote-box quote-bottom">
+          "{{ videos[5].quote }}"
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,118 @@
+/* .values-section {
+  text-align: right;        
+  padding: 60px 40px;
+  position: relative;
+}
+
+.values-subtitle {
+  position: absolute;
+  top: 15px;
+  right: 40px;            
+  font-size: 14px;
+  color: #9ca3af;
+}
+.values-section span{
+  margin-bottom:0px;
+  margin-top:20px;
+  font-size:medium;
+}
+
+.values-section h6 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top:0px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.values-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.values-section li {
+  font-size: 32px;
+  line-height: 1.8;
+  color: #222;
+  font-style: italic;
+  text-align: right;         
+}
+
+.values-section li:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 600px) {
+  .values-section h6{
+    text-align: right;  
+    font-size:18px;    
+  }
+
+  .values-section li {
+    text-align: right;
+    font-size:18px; 
+  }
+
+  .values-subtitle {
+    text-align:right;
+  }
+} */
+.values-section {
+  text-align: right;
+  padding: 60px 40px;
+  position: relative;
+  background: white;
+}
+
+.values-subtitle {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  display: block;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.values-section h6 {
+  font-size: 36px;
+  margin: 0 0 20px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.values-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.values-section li {
+  font-size: 32px;
+  line-height: 1.8;
+  color: #222;
+  font-style: italic;
+}
+
+.values-section li:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 600px) {
+  .values-section {
+    padding: 50px 20px;
+  }
+
+  .values-section h6 {
+    font-size: 18px;
+  }
+
+  .values-section li {
+    font-size: 18px;
+  }
+
+  .values-subtitle {
+    right: 20px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,12 @@
+<section class="showcase-section">
+  <div class="showcase-frame" (click)="goToPosters()">
+    <div class="poster-grid" #posterGrid>
+      <img *ngFor="let poster of loopedPosters; trackBy: trackByImage" [src]="poster" alt="poster" />
+    </div>
+
+    <div class="play-badge">
+      <span class="file-icon" >📁</span>
+      <!-- <img [src]="'assets/logos/file-icon.png'" class="file-icon" (click)="goToPosters()" /> -->
+    </div>
+  </div>
+</section>
