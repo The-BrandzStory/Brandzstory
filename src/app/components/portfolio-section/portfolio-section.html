@@ -50,12 +50,11 @@
 
         <div class="video-card video-card-tall" (click)="playVideo(3)">
           <video #videoPlayer [src]="videos[3].src" [poster]="videos[3].poster" controls preload="metadata">
-            <video #videoPlayer [src]="videos[3].src" [poster]="videos[3].poster" controls preload="metadata">
-            </video>
+          </video>
 
-            <div class="quote-box quote-right">
-              "{{ videos[3].quote }}"
-            </div>
+          <div class="quote-box quote-right">
+            "{{ videos[3].quote }}"
+          </div>
         </div>
 
         <div class="video-card video-card-small" (click)="playVideo(4)">
