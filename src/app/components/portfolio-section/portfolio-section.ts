@@ -18,7 +18,7 @@ export class PortfolioSection {
   videos = [
     {
       src: 'assets/videos/god-mode.mp4',
-      poster: '',
+      poster: 'assets/images/karuppu.png',
       quote: 'God mode beginns. 🔥.'
     },
     {
@@ -46,7 +46,7 @@ export class PortfolioSection {
     },
     {
       src: 'assets/videos/kiruba-car.mp4',
-      poster: '',
+      poster: 'assets/images/car.png',
       quote: 'Every key opens a new story'
     }
   ];
