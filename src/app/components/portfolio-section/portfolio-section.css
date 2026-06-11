@@ -302,13 +302,17 @@
     height: 240px;
   }
 
-  .video-card-small {
+  .video-card-small,
+  .video-card-bottom {
     height: 220px;
   }
+
 
   .video-card-tall {
     height: 300px;
   }
+
+
 
   .quote-box {
     font-size: 10px;
@@ -325,7 +329,11 @@
     width: 60px;
   }
 
-  .bottom-video .video-card-top {
+  /* .bottom-video {
+    height: 240px;
+  } */
+
+  .video-card-top {
     height: 240px;
   }
 }
