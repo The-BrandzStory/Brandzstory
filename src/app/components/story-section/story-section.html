@@ -91,7 +91,8 @@
 
 <section class="video-wrapper">
   <div class="video-frame">
-    <video controls muted loop playsinline poster="assets/images/brandzcover.jpeg">
+    <video id="myVideo" (click)="playFullscreen()" controls muted loop playsinline
+      poster="assets/images/brandzcover.jpeg">
       <source src="assets/videos/brandzstory.mp4">
 
     </video>

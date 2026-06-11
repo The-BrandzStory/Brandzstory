@@ -173,6 +173,7 @@
   object-fit: cover;
   border-radius: 16px;
   background: #ffffff;
+  cursor: pointer;
 }
 
 .quote-box {
